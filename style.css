@@ -1,0 +1,63 @@
+
+  body {
+  background:lightblue;
+   
+    }
+    p {
+      color:black;
+      text-align:center;
+      font-family: Monospace;
+
+    }
+
+    h1 {
+
+      color:floralwhite;
+      font-family: monospace;
+      text-align:center;
+    }
+
+
+    h3 { 
+      font-family: monospace;
+      color: lightpink;
+      text-align:center;
+      
+    }
+
+
+
+    h2 {
+      font-family: monospace;
+      color: lightpink;
+      text-align:center;
+    }
+
+   
+
+   
+    li {
+
+      font-family: monospace;
+      color:lightpink;
+      text-align:left;
+
+    }
+
+    img {
+      width: 100px;
+      height: 100px;
+      border-color:aliceblue;
+      border-width:4px;
+      border-style:Ridge;
+      border-radius: 100px;
+      float:right;
+    }
+a:link {
+  color: lightpink;
+}
+a:hover {
+  color: ghostwhite;
+  font-size:25px;
+  background-color: lightblue;
+}
