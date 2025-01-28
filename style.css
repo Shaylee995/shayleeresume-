@@ -1,14 +1,23 @@
-
+html {
+  height: 100%;
+  width: 100%;
+}
+  
   body {
   background:lightblue;
-   
-    }
+  }
     p {
       color:black;
       text-align:center;
       font-family: Monospace;
-
+      font-size: 13px;
     }
+
+h4 {
+  font-family: monospace;
+  color: lightyellow;
+  font-size:17px;
+}
 
     h1 {
 
@@ -25,39 +34,71 @@
       
     }
 
-
-
-    h2 {
+   h6 {
       font-family: monospace;
       color: lightpink;
+      text-align: bottom;
+    
+    }
+
+h2 {
+
+  color:lightpink;
+  font-family: monospace;
+  text-align:left;
+}
+
+li {
+
+      font-family:Georgia;
+      color:lightyellow;
       text-align:center;
+      font-size:30px ;
     }
-
-   
-
-   
-    li {
-
-      font-family: monospace;
-      color:lightpink;
-      text-align:left;
-
-    }
-
+/*image details style*/
     img {
-      width: 100px;
-      height: 100px;
-      border-color:aliceblue;
-      border-width:4px;
-      border-style:Ridge;
-      border-radius: 100px;
-      float:right;
+      width: 75%;
+      height: 75%;
+      border-color:lightyellow;
+      border-width: 5px;
+      border-style:solid;
+      border-radius:20px;
+      align-self:center;
     }
+ /*links*/
+
 a:link {
   color: lightpink;
+
 }
+
 a:hover {
   color: ghostwhite;
-  font-size:25px;
+  font-size: 25px;
   background-color: lightblue;
+   
 }
+.gallery {
+  display:flex;
+  flex-direction:column;
+  flex-wrap: nowrap;
+ justify-content:space-between
+
+}
+
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction:column;
+
+}
+ /*display:flex;*/
+.container {
+  display: flex;
+  flex-wrap:nowrap;
+   flex-direction:column;
+  justify-content: center;
+  
+}
+
